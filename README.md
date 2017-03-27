@@ -7,7 +7,7 @@ Simple ActionMailer provider for sending mail through Sparkpost API.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sparkpost_rails5'
+gem 'sparkpost_rails5', require: "sparkpost_rails"
 ```
 
 And then execute:
