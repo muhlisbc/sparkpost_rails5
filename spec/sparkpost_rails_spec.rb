@@ -5,7 +5,7 @@ RSpec.describe SparkpostRails do
 
   before(:all) do
     suffix    = "email.com.sink.sparkpost.com"
-    @sender   = {email: "sender@dev.abylina.com", name: "Sender"}
+    @sender   = {email: ENV["EMAIL_SENDER"], name: "Sender"}
     @subject  = "This is a subject"
     @rcpt1    = "to1@#{suffix}"
     @rcpt2    = {email: "to2@#{suffix}", name: "User2"}
